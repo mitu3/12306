@@ -58,7 +58,7 @@ print ({c.name: c.value for c in x.cookies})
 #     # print(r.json())
 #     # 　　requests得到的是一个json格式的对象，ｒ.json()转化成python字典格式数据来提取，所有的车次结果result
 #     raw_trains = r.json()['data']['result']
-#     pt = PrettyTable()
+#     pt = PrettyTable()q
 #     pt._set_field_names("车次　车站　时间　经历时　一等座　二等座　软卧　硬卧 硬座　无座".split())
 #     for raw_train in raw_trains:
 #         # split切割之后得到的是一个列表
